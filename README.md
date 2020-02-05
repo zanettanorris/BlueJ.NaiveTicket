@@ -35,14 +35,15 @@ Balance value 0
 * Experiment with inserting different amounts of money before printing tickets.
 	* Do you notice anything strange about the machine’s behavior?
 	
-	Any money inserted gets added to "your total" and it stays in balance only until ticket is printed. Then the balance zeroes out again. If I put in too much money the machine keeps it. 
+Any money inserted gets added to "your total" and it stays in balance only until ticket is printed. Then the balance zeroes out again. If I put in too much money the machine keeps it. 
 	
 	* What happens if you insert too much money into the machine – do you receive any refund?
 	
-	No 
+No 
 	
 	* What happens if you do not insert enough and then try to print a ticket?
-	The ticket will print anyway. "Ticket price 500. Your total is 400." 
+	
+The ticket will print anyway. "Ticket price 500. Your total is 400." 
 
 ### Exercise 2.4
 * Try to obtain a good understanding of a ticket machine’s behavior by interacting with it on the object bench before we start looking at how the `TicketMachine` class is implemented in the next section.
