@@ -23,7 +23,8 @@ Insert 1000
 Yes, Balance value 1000.
 
 	* You can insert several separate amounts of money into the machine, just like you might insert multiple coins or notes into a real machine. Try inserting the exact amount required for a ticket. As this is a simple machine, a ticket will not be issued automatically, so once you have inserted enough money, call the `printTicket` method. A facsimile ticket should be printed in the BlueJ terminal window.
-	Ticket price: 500 cents. Your total is 1500.
+	
+Ticket price: 500 cents. Your total is 1500.
 
 ### Exercise 2.2
 * What value is returned if you check the machine’s balance after it has printed a ticket?
@@ -61,6 +62,7 @@ The machine does not check if money inserted is too little, too much, and will p
 * Write out what you think the outer wrappers of the `Student` and `LabClass` classes might look like – do not worry about the inner part.
 
 private class Student {}
+
 public class LabClass {}
 
 ### Exercise 2.7
@@ -115,8 +117,8 @@ private Server host;
 ```
 
 primitive type int
-object type string (?)
-object type string 
+type Student (?)
+type Server 
 
 ### Exercise 2.12
 * What are the names of the following fields?
@@ -138,6 +140,9 @@ In the following field declaration from the TicketMachine class<br>
 ```java
 private int price;
 ```
+
+Is this different from private Integer price?
+
 does it matter which order the three words appear in?
 
 Yes
@@ -147,6 +152,7 @@ Yes
 possible? 
 
 Crosshatching again xxxx
+
 	* Check by pressing the compile button to see if there is an error message.
 	
 Integer private price; Identifier expected
@@ -159,9 +165,11 @@ private price Integer; Cannot find symbol- variable price.
 * Is it always necessary to have a semicolon at the end of a field declaration?
 
 Yes. 
+
 * Once again, experiment via the editor.
 
 Okay
+
 * The rule you will learn here is an important one, so be sure to remember it.
 
 "';' expected." Also expect to see this again, many times. 
@@ -186,7 +194,11 @@ Belongs to class Student
 public Book(String title, double price)
 ```
 
-Two parameters: title, type string object, and price, type double primitive. 
+Two parameters: 
+
+title, type string object, and 
+
+price, type double primitive. 
 
 ### Exercise 2.18
 * Can you guess what types some of the `Book` class’s fields might be?
