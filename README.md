@@ -118,7 +118,9 @@ private Server host;
 ```
 
 primitive type int
+
 type Student (?)
+
 type Server 
 
 ### Exercise 2.12
@@ -131,7 +133,9 @@ private Game game;
 ```
 
 alive
+
 tutor
+
 game
 
 ### Exercise 2.13
@@ -157,7 +161,9 @@ Crosshatching again xxxx
 	* Check by pressing the compile button to see if there is an error message.
 	
 Integer private price; Identifier expected
+
 Integer price private; Illegal start of type.
+
 private price Integer; Cannot find symbol- variable price.
 	
 	* Make sure that you reinstantiate the original version after your experiments!
