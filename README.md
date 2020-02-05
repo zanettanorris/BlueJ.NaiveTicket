@@ -12,7 +12,7 @@ Work through all these exercises. You edit this file with your answers for these
 * Upon viewing its methods, `getBalance`, `getPrice`, `insertMoney`, `printTicket`
 * Use `getPrice` method to view the value of the price of the tickets that was set when this object was created.
 
-// Price 500
+<--- Price 500 --->
 
 * Use `insertMoney` method to simulate inserting an amount of money into the machine.
 
